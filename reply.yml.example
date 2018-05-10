@@ -1,0 +1,126 @@
+help:
+    key:
+        - 'help'
+        - 'Help'
+        - '幫助'
+
+ldx:
+    - msg:
+        - data: '我不懂你在說什麼>"<'
+          type: 1
+    - msg:
+        - data: '試試help指令，可能會有神秘的功能唷！'
+          type: 1
+    - msg:
+        - data: '你知道嗎？機器人我在當天會有其他工作可以做唷!'
+          type: 1
+    - msg:
+        - data: '其實我還有一些隱藏功能你知道嗎?'
+          type: 1
+    - msg:
+        - data: '請原諒機器人笨笨的，機器人不懂您說的東西是什麼意思.....'
+          type: 1
+        - data:
+            package_id: '1'
+            sticker_id: '16'
+          type: 6
+    - msg:
+        - data: |+
+                雖然機器人我不知道您說什麼... 不過！
+                你知道嗎？機器人我在當天會有其他工作可以做唷!
+                ψ(｀∇´)ψ
+          type: 1
+
+pattern:
+    # msg type: 1=text
+    - key: 
+        - 'map'
+        - 'Map'
+        - '地圖'
+        - '地點'
+      help: '地圖資訊'
+      msg: 
+        - data: |+ 
+              我是地圖資訊
+              我是地圖資訊
+              我是地圖資訊
+              我是地圖資訊
+          type: 1
+    - key:
+        - 'traffic'
+        - 'Traffic'
+        - '交通'
+      help: '交通資訊'
+      msg:
+        - data: |+
+             我是交通資訊
+             我是交通資訊
+             我是交通資訊
+             我是交通資訊
+             我是交通資訊
+          type: 1
+    - key:
+        - 'parking'
+        - 'Parking'
+        - '停車'
+      help: '停車資訊'
+      msg:
+        - data: |+
+                你是開車來的嗎？ 這附近有兩個比較近的停車場分別是
+          type: 1
+        - data: |+
+                停車地圖1
+                停車地圖1
+                停車地圖1
+          type: 1
+        - data: |+
+                停車地圖2
+                停車地圖2
+                停車地圖2
+          type: 1
+    - key:
+        - '會什麼'
+      msg:
+          - data: '其實我什麼都不太會....  不過你可以試試看 help'
+            type: 1
+    - key:
+        - 'test'
+        - 'Test'
+        - '測試'
+      help:
+          '測試'
+      msg:
+        - data: "嘿嘿～你想測試什麼啊？(hmph)"
+          type: 1
+        - data: 
+              package_id: '1'
+              sticker_id: '7' 
+          type: 6
+    - key:
+        - '漂亮'
+        - '正妹'
+        - '美麗'
+        - '帥'
+        - '英俊'
+        - '瀟灑'
+      msg:
+          - data: '你一定在說我 (///▽///) 我都不好意思了！'
+            type: 1
+          - data:
+              package_id: '1'
+              sticker_id: '410'
+            type: 6
+    - key:
+        - '你的名字'
+        - '你叫什麼名字'
+      msg:
+          - data: '我可是乖巧小小小小小機器人，我的名字叫做阿喜，請多多指教！'
+            type: 1
+    - key:
+        - 'hello'
+        - 'Hello'
+        - 'Hi'
+        - '哈摟'
+      msg:
+          - data: '你好喲！'
+            type: 1

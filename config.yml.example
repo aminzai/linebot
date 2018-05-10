@@ -1,0 +1,19 @@
+
+download_path: 'image download path'
+
+interface:
+    lineV2:
+        config:
+            channel_access_token: 'this is channel access token'
+        url: '/callback_url'
+        # admin:
+        #     - 'admin line id'
+
+    line:
+        config:
+            channel_id: 'channel_id'
+            channel_secret: 'channel_secret'
+            channel_mid: 'channel_mid'
+        url: '/line_callback'
+        admin:
+            - 'admin-line-id'
