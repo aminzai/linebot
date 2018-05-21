@@ -172,10 +172,8 @@ class BaseInterface(six.with_metaclass(abc.ABCMeta, object)):
 
 
 def InterfaceFactory(name, config):
-    from chatbot.interface.line import LineInterface
     from chatbot.interface.lineV2 import LineV2Interface
     INERTFACE_TAB = {
-        'line': LineInterface,
         'lineV2': LineV2Interface,
     }
 
